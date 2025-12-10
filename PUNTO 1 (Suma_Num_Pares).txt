@@ -1,0 +1,22 @@
+Funcion resultado = suma_pares ( a ) //funcion suma_pares arroja un valor de retorno llamada resultado y tiene un argumento numerico
+	n=a // definimos una nueva variable para no modificar el limite del "para"  que es a, y se encarga de decirme cuantas veces se debe repetir la funcion
+	Para i=1 Hasta a Con Paso 1 Hacer // bucle que me repita este proceso el numero de veces que indica a
+		si n mod 2==0 Entonces// condicional que me indica si el numero es par o no
+			n=n+2// si es par se calcula el siguiente numero par con esta suma
+			Imprimir (n); 
+		SiNo // si no es numero par 
+			n=n+1 // con esta operacion lo convertimos en numero par
+			Imprimir (n);// imprimimos el primer numero par despues de a 
+		fin si// En este punto a es par y entra a la primera parte de la funcion. 
+	Fin Para
+Fin Funcion
+
+
+
+Algoritmo Suma_Num_Pares
+	Escribir "Ingrese el numero";
+	leer a;
+	imprimir suma_pares(a);
+	
+	
+FinAlgoritmo

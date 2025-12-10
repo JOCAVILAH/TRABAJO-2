@@ -1,0 +1,17 @@
+Funcion resultado = Dado ( 50 )
+	b=0 // contador para almacenar el numero de veces que el dado cae en 1
+	Para i=1 Hasta 50 Con Paso 1 Hacer // bucle que repite los 50 lanzamientos 
+		a=Aleatorio(1,6)// numero aleatorio del dado
+		Imprimir  (" lanzamiento "), (i), (" = ") , (a) 
+		Si a==1 Entonces// si el numero aleatorio cayo en 1 entonces hacer
+			b=b+1 // sumar 1 cada vez que se cumpla
+		Fin Si
+	Fin Para
+	imprimir " El dado Cayo ", b , " veces en el numero 1 " // se imprime el numero de veces que se repitio el numero 1, el cual se guardo en la variable b
+Fin Funcion
+
+Algoritmo Probabilidad
+	Imprimir Dado(50);
+
+	
+FinAlgoritmo

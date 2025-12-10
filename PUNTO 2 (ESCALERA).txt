@@ -1,0 +1,17 @@
+Funcion asterisco = grafica ( n ) // funcion grafica --> resultado asterisco, numero de filas(n)
+	Para a=1 Hasta n Con Paso 1 Hacer// este "para" repite la funcion las veces que indica n
+		Para b=1 Hasta a Con Paso 1 Hacer// bucle que escribe el * sin espacio hasta que b==a con eso se repite el ciclo el numero de veces que indique a.  asi se conforma la escalera 
+			Escribir "*"," " Sin Saltar// esta linea escribe el * junto con un espacio y no permite hacer salto de linea mientras esta en el mismo ciclo.
+		Fin Para
+		Escribir ""//esta linea hace que se haga un cambio de "renglon" una vez se sale del bucle interno.
+	Fin Para
+Fin Funcion
+
+Algoritmo Escalera
+	
+	Imprimir ("ingrese el numero de escalones");
+	leer a
+	Imprimir grafica(a);
+	
+	
+FinAlgoritmo
